@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class Calculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("A = ");
+        System.out.print("A = ");
         int A = sc.nextInt();
-        System.out.println("B = ");
+        System.out.print("B = ");
         int B = sc.nextInt();
-        System.out.println("opertor = ");
+        System.out.print("opertor = ");
         char opertor = sc.next().charAt(0);
 
         switch (opertor) {
